@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "textlint-scripts test",
+    "build": "textlint-scripts build",
+    "prepublish": "npm run --if-present build"
+  },
+  "devDependencies": {
+    "@textlint/types": "^13.3.3",
+    "textlint-scripts": "^13.3.3",
+    "textlint-tester": "^13.3.3"
+  },
+  "name": "textlint-rule-no-parallel-ka",
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "kuromojin": "^3.0.0"
+  }
+}
