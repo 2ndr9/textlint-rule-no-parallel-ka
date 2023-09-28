@@ -1,3 +1,1 @@
-彼が来るかどうか分か
-
-マイクかスピーカがほしい
+# textlint-rule-no-parallel-ka
